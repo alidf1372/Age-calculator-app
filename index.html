@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <style>
+    @font-face {
+      font-family: "Poppins-Bold";
+      src: url("./assets/fonts/Poppins-Bold.ttf");
+    }
+    /*@font-face {*/
+    /*  font-family: "Poppins-Bold";*/
+    /*  src: url("./assets/fonts/Poppins-Bold.ttf");*/
+    /*}*/
+    @font-face {
+      font-family: "Poppins-BoldItalic";
+      src: url("./assets/fonts/Poppins-BoldItalic.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-ExtraBold";
+      src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-ExtraBoldItalic";
+      src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-Italic";
+      src: url("./assets/fonts/Poppins-Italic.ttf");
+    }
+    @font-face {
+      font-family: "Poppins-Regular";
+      src: url("./assets/fonts/Poppins-Regular.ttf");
+    }
+  </style>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+
+  <main class="main-box">
+    <form action="/" method="post">
+      <div id="in-day">
+        <label for="day">DAY</label>
+        <input type="text" name="day" id="day" placeholder="DD">
+      </div>
+      <div id="in-month">
+        <label for="month">MONTH</label>
+        <input type="text" name="month" id="month" placeholder="MM">
+      </div>
+      <div id="in-year">
+        <label for="year">YEAR</label>
+        <input type="text" name="year" id="year" placeholder="YYYY">
+      </div>
+      <div>
+        <button type="button"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+      </div>
+    </form>
+
+    <section class="result">
+      <article class="res-year">
+        <span class="res-year-num">--</span>
+        years
+      </article>
+      <article class="res-month">
+        <span class="res-month-num">--</span>
+        months
+      </article>
+      <article class="res-day">
+        <span class="res-day-num">--</span>
+        days
+      </article>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="aliferdows.ir">Ali Doozandeh Ferdows</a>.
+  </div>
+
+  <script type="application/javascript" src="./assets/js/main.js"></script>
+</body>
+</html>
